@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Никита Фандюшин](https://up.htmlacademy.ru/htmlcss/22/user/434501).
-* Наставник: [Сергей Рубец](https://htmlacademy.ru/profile/amator).
+* Наставник: [Сергей Рубец](https://htmlacademy.ru/profile/amator).123
 
 ---
 
