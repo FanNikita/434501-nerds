@@ -9,7 +9,7 @@
 			<header class="main-header">
 				<nav class="main-navigation">
 					<a class="main-header-logo" href="index.html">
-						<img class="main-logo" src="https://ampir.ru/upload/iblock/25b/25b3b7ff91178c54ebe666afafc5d933.jpeg" width=20 height=20 alt="логотип nerds">
+					<img class="main-logo" src="https://ampir.ru/upload/iblock/25b/25b3b7ff91178c54ebe666afafc5d933.jpeg" width=20 height=20 alt="логотип nerds">
 					</a>
 					<ul>
 						<li> <a href="/">студия</a> </li>
@@ -23,40 +23,81 @@
 				</nav>
 			</header>
 		<main class="main-catalog">
-			<section class="catalog-filter">
+			<aside class="catalog-filter">
 				<h1>Магазин готовых шаблонов</h1>
 				
 				<form action="/" method="post">
-					<label for="cost-filter">стоимость</label>
-					<input type="range" id="cost-filter" min="0" max="15500" step="1" value="7750">
+					<label>
+						<input type="range" min="0" max="15500" step="1" value="7750">
+						<span>стоимость</span>
+					</label>
 					<div class="cost-filter-min"></div>
 					<div class="cost-filter-min"></div>
-					<br>
-					<input type="radio" id="adaptive"  name="grid" value="adaptive" checked>
-					<label for="adaptive">адаптивная</label>
-					<input type="radio" id="fixed" name="grid" value="fixed">
-					<label for="fixed">фиксированная</label>
-					<input type="radio" id="rubber" name="grid" value="rubber">
-					<label for="rubber">резиновая</label>
-					
+					<label>
+						<input type="radio" name="grid" value="adaptive" checked>
+						<span>адаптивная</span>
+					</label>
+					<label>
+						<input type="radio" name="grid" value="fixed">
+						<span>фиксированная</span>
+					</label>
+					<label>
+						<input type="radio" name="grid" value="rubber">
+						<span>резиновая</span>
+					</label>
 					<p class="page-features">особенности</p>
-					<input type="checkbox" id="slider"  name="page-features" value="slider" >
-					<label for="slider">слайдер</label>
-					<input type="checkbox" id="superiority" name="page-features" value="superiority">
-					<label for="superiority">преимущества</label>
-					<input type="checkbox" id="news" name="page-features" value="news">
-					<label for="news">новости</label>
-					<input type="checkbox" id="gallery-of-works"  name="page-features" value="gallery-of-works" >
-					<label for="gallery-of-works">галерея</label>
-					<input type="checkbox" id="shopping-cart" name="page-features" value="shopping-cart">
-					<label for="shopping-cart">корзина</label>
+					
+					<label>
+						<input type="checkbox" name="page-features" value="slider" >
+						<span>слайдер</span>
+					</label>
+					
+					<label>
+						<input type="checkbox" name="page-features" value="superiority">
+						<span>преимущества</span>
+					</label>
+					
+					<label>
+						<input type="checkbox" name="page-features" value="news">
+						<span>новости</span>
+					</label>
+					<input type="checkbox" name="page-features" value="gallery-of-works" >
+					<label>
+						<input type="checkbox" name="page-features" value="gallery-of-works">
+						<span>галерея</span>
+					</label>
+					
+					<label>
+						<input type="checkbox" name="page-features" value="shopping-cart">
+						<span>корзина</span>
+					</label>
 					<input type="submit" value="показать">
 				</form>
-			</section>
-			<table>
-				<caption>сортировать</caption>
-				
-			</table>
+			</aside>
+			<div>
+				<p>сортировать</p>
+				<div>
+					<a href="/">по цене</a>
+					<a href="/">по типу</a>
+					<a href="/">по названию</a>
+					<a href="/">вниз</a>
+					<a href="/">вверх</a>
+				</div>
+			</div>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div>
+				<a href="/">1</a>
+				<a href="/">2</a>
+				<a href="/">3</a>
+				<a href="/">следующая</a>
+			</div>
 		</main>	
 			<footer>
 				<section>
@@ -70,9 +111,9 @@
 					</ul>
 				</section>
 					<ul class="socialButtons">
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><a href="/">vk</a></li>
+						<li><a href="/">fb</a></li>
+						<li><a href="/">inst</a></li>
 					</ul>
 				<p>Давайте дружить, это выгодно!</p>
 				<p><h3>Скидка 10% для друзей из социальных сетей</h3></p>
