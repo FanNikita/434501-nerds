@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+	<html lang="ru">
+		<head>
+			<meta charset="utf-8">
+			<title>HTML Academy: Нёрдс</title>
+		</head>
+
+		<body>
+			<header class="main-header">
+				<nav class="main-navigation">
+					<a class="main-header-logo" href="index.html">
+						<img class="main-logo" src="https://ampir.ru/upload/iblock/25b/25b3b7ff91178c54ebe666afafc5d933.jpeg" width=20 height=20 alt="логотип nerds">
+					</a>
+					<ul>
+						<li> <a href="/">студия</a> </li>
+						<li> <a href="/">клиенты</a> </li>
+						<li> <a href="/">магазин</a> </li>
+						<li> <a href="/">контакты</a> </li>
+					</ul>
+					<ul>
+						<li><a href="/">Корзина</a></li>
+					</ul>
+				</nav>
+			</header>
+		<main class="main-catalog">
+			<section class="catalog-filter">
+				<h1>Магазин готовых шаблонов</h1>
+				
+				<form action="/" method="post">
+					<label for="cost-filter">стоимость</label>
+					<input type="range" id="cost-filter" min="0" max="15500" step="1" value="7750">
+					<div class="cost-filter-min"></div>
+					<div class="cost-filter-min"></div>
+					<br>
+					<input type="radio" id="adaptive"  name="grid" value="adaptive" checked>
+					<label for="adaptive">адаптивная</label>
+					<input type="radio" id="fixed" name="grid" value="fixed">
+					<label for="fixed">фиксированная</label>
+					<input type="radio" id="rubber" name="grid" value="rubber">
+					<label for="rubber">резиновая</label>
+					
+					<p class="page-features">особенности</p>
+					<input type="checkbox" id="slider"  name="page-features" value="slider" >
+					<label for="slider">слайдер</label>
+					<input type="checkbox" id="superiority" name="page-features" value="superiority">
+					<label for="superiority">преимущества</label>
+					<input type="checkbox" id="news" name="page-features" value="news">
+					<label for="news">новости</label>
+					<input type="checkbox" id="gallery-of-works"  name="page-features" value="gallery-of-works" >
+					<label for="gallery-of-works">галерея</label>
+					<input type="checkbox" id="shopping-cart" name="page-features" value="shopping-cart">
+					<label for="shopping-cart">корзина</label>
+					<input type="submit" value="показать">
+				</form>
+			</section>
+			<table>
+				<caption>сортировать</caption>
+				
+			</table>
+		</main>	
+			<footer>
+				<section>
+					<div class="map"></div>
+					<ul>
+						<li><h2>nёrds design studio</h2>
+						<p>1191168, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+						<p>тел. +7 (812) 275-75-75</p>
+						<a class="writeToUs"></a>
+						</li>
+					</ul>
+				</section>
+					<ul class="socialButtons">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				<p>Давайте дружить, это выгодно!</p>
+				<p><h3>Скидка 10% для друзей из социальных сетей</h3></p>
+			</footer>
+		</body>
+	</html>
