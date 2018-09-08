@@ -112,11 +112,12 @@ body {
 	color: #283136;
 }
 /*.htmlAcademy{
-	display:block;
-	background-color:red;
-	background-image:url('img/svg-nerds/nerds-logo.svg');
-	width:100px;
-	height:100px;
+	background-image:url('../img/svg-nerds/nerds-logo.svg');
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-color: grey;
+
 }*/
 .adress li{
 	list-style: none;
