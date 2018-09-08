@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Arial; 
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	background: #ffffff;
+}
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+.main-header {
+	background-color: #eeeeee;
+}
+.user-navigation li{
+	list-style:none;
+	
+}
+.user-navigation{
+	color: #000000
+}
+
+.user-navigation a:hover  {
+	color: #fb565a;
+}
+.user-navigation a:active  {
+	color: black;
+}
+
