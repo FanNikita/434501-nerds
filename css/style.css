@@ -11,26 +11,165 @@ body {
 .main-header {
 	background-color: #eeeeee;
 }
+
 .user-navigation li{
-	list-style:none;
-	
+	list-style: none;
 }
 .user-navigation a{
+	font-family: Roboto, Arial; 
+	font-size: 16px;
+	line-height: 30px;
 	color: #000000;
 	text-decoration: none;
-	
-	
 }
 
 .user-navigation a:hover{
 	color: #fb565a;
 	text-decoration: none;
 }
+
 .user-navigation a:active{
 	color: #a6a6a6;
 	text-decoration: none;
 }
+
 .main-container {
 	background-color: #eeeeee;
 }
+.main-slider li{
+	list-style: none;
+}
+.main-slider a{
+	text-decoration: none;
+}
+.first-p-slider {
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+	
+}
+.last-p-slider {
+	font-size: 16px;
+	line-height: 24px;
+	color: #8c9093;
+}
+.btn-p-slider {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+		
+}
+.our-service h3{
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+}
+.our-service p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #8c9093;
+}
+.our-service a{
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.about-us h2{
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+.about-us p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #8c9093;
+}
+.orders h2{
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+}
+.orders li{
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+}
+.stats caption{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.stats .first-tbl{
+	font-size: 45px;
+	line-height: 10.06px;
+	color: #000000;
+}
+.stats .last-tbl{
+	font-size: 16px;
+	line-height: 18px;
+	color: #283136;
+}
+/*.htmlAcademy{
+	display:block;
+	background-color:red;
+	background-image:url('img/svg-nerds/nerds-logo.svg');
+	width:100px;
+	height:100px;
+}*/
+.adress li{
+	list-style: none;
+}
+.adress h2{
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+}
+.adress p{
+	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+}
+.adress a{
+	display:block;
+	width:150px;
+	height:100px;
+	background-color:#fb565a;
+	padding-top:75px;
+	padding-top:20px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.social-buttons li{
+	list-style: none;
+}
+.slogan-footer p:first-child{
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+	
+}
+.slogan-footer p:last-child{
+	font-size: 16px;
+	line-height: 22px;
+	color: #444444;
+		
+}
+
+	
+
+	
+	
+
+	
+	
+
+
+
+
+
 
