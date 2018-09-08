@@ -7,10 +7,7 @@ body {
 	font-weight: 700;
 	background: #ffffff;
 }
-a {
-	text-decoration: inherit;
-	color: inherit;
-}
+
 .main-header {
 	background-color: #eeeeee;
 }
@@ -18,14 +15,22 @@ a {
 	list-style:none;
 	
 }
-.user-navigation{
-	color: #000000
+.user-navigation a{
+	color: #000000;
+	text-decoration: none;
+	
+	
 }
 
-.user-navigation a:hover  {
+.user-navigation a:hover{
 	color: #fb565a;
+	text-decoration: none;
 }
-.user-navigation a:active  {
-	color: black;
+.user-navigation a:active{
+	color: #a6a6a6;
+	text-decoration: none;
+}
+.main-container {
+	background-color: #eeeeee;
 }
 
